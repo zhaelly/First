@@ -26,9 +26,7 @@ with st.container():
     
     col1, col2, col3, col4 = st.columns([1, 4, 4, 1])
     with col3:
-        st.header("Services I Offer:")
-
-        st.subheader("🎵 Things I Do")
+        st.header("🎵 Things I Do")
         st.write(
             """
             - Songwriting 
