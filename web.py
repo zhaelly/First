@@ -81,49 +81,33 @@ with st.container():
 
 
 
-# Create a container for layout
 with st.container():
-    # Add a separator and a header
     st.write("---")
     st.header("Example Work:")
 
-    # Define 4 columns for layout
-    col1, col2, col3, col4 = st.columns([1, 4, 4, 1])  # Adjust column width ratio as needed
-    
-    # First section: Spotify logo and Stream title on the same row
+    # First Example: Spotify release
+    col1, col2 = st.columns([1, 3])
+    with col1:
+        st.image("images/spotify logo.png", use_container_width=True)
     with col2:
-        st.image('images/spotify logo.png', width=150)
-    
-    with col3:
         st.subheader("🎵 Stream")
-        st.subheader('["AGAIN"](https://open.spotify.com/track/6bxmPoPqjkPLzxalB2l8QG?si=238440af124c43b8) by zhaelly')
+        st.markdown('[**"AGAIN" by zhaelly**](https://open.spotify.com/track/6bxmPoPqjkPLzxalB2l8QG?si=238440af124c43b8)')
 
-    # Adding some spacing between sections
-    st.write("##")
     st.write("##")
 
-    # Second section: Song logo and link (Christmas song) in the same row
-    with col2:
-        st.write("##")
-        st.image('images/song logo.png', width=150)
-    
+    # Second Example: Christmas Song
+    col3, col4 = st.columns([1, 3])
     with col3:
-        st.write("##")
-        st.write("##")
+        st.image("images/song logo.png", use_container_width=True)
+    with col4:
         st.subheader("[Christmas Song](https://web.facebook.com/100068574985087/videos/pcb.901173735511784/1089267532979390)")
 
-    # Adding some spacing between sections
-    st.write("##")
     st.write("##")
 
-    # Third section: Another song logo and link (G10 Farewell Song) in the same row
-    with col2:
-        st.write("##")
-        st.image('images/song logo.png', width=150)
-    
-    with col3:
-        st.write("##")
-        st.write("##")
+    # Third Example: G10 Farewell Song
+    col5, col6 = st.columns([1, 3])
+    with col5:
+        st.image("images/song logo.png", use_container_width=True)
+    with col6:
         st.subheader("[G10 Farewell Song](https://youtu.be/fSJmLsSLIF0?si=7LQ2jPjxHnqbw5Y3)")
-
 
