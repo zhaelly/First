@@ -53,7 +53,7 @@ with st.container():
 
 with img:
         st.write("###")
-        st.image('project christmas.jpg')
+        st.image('images/project christmas.jpg')
     
 with text:
         st.header("[HOW I PRODUCED A CHRISTMAS TRACK IN 2024](https://www.youtube.com/watch?v=KbLGTxJFpaY)")
@@ -70,7 +70,7 @@ with st.container():
         st.write("###")
         st.write("###")
         st.write("###")
-        st.image('project prog.png')
+        st.image('images/project prog.png')
 
     with text:
         st.write("###")
@@ -102,7 +102,7 @@ with st.container():
     
     # First section: Spotify logo and Stream title on the same row
     with col2:
-        st.image('spotify logo.png', width=150)
+        st.image('images/spotify logo.png', width=150)
     
     with col3:
         st.subheader("🎵 Stream")
@@ -115,7 +115,7 @@ with st.container():
     # Second section: Song logo and link (Christmas song) in the same row
     with col2:
         st.write("##")
-        st.image('song logo.png', width=150)
+        st.image('images/song logo.png', width=150)
     
     with col3:
         st.write("##")
@@ -129,7 +129,7 @@ with st.container():
     # Third section: Another song logo and link (G10 Farewell Song) in the same row
     with col2:
         st.write("##")
-        st.image('song logo.png', width=150)
+        st.image('images/song logo.png', width=150)
     
     with col3:
         st.write("##")
