@@ -28,10 +28,10 @@ with st.container():
     with col3:
         st.header("Services I Offer:")
 
-        st.subheader("🎵 Music & Audio Services")
+        st.subheader("🎵 This I Do")
         st.write(
             """
-            - Songwriting (custom & ghost)
+            - Songwriting 
 
             - Beat production (EDM, pop)
 
