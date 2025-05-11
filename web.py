@@ -53,7 +53,7 @@ with st.container():
 
 with img:
         st.write("###")
-        st.image(r"C:\Users\NOELIZSHIAZIL\Desktop\python web\images\project christmas.jpg")
+        st.image('project christmas.jpg')
     
 with text:
         st.header("[HOW I PRODUCED A CHRISTMAS TRACK IN 2024](https://www.youtube.com/watch?v=KbLGTxJFpaY)")
@@ -70,7 +70,7 @@ with st.container():
         st.write("###")
         st.write("###")
         st.write("###")
-        st.image(r"C:\Users\NOELIZSHIAZIL\Desktop\python web\images\project prog.png")
+        st.image('project prog.png')
 
     with text:
         st.write("###")
