@@ -24,8 +24,8 @@ with st.container():
 with st.container():
     st.write("---")
     
-    left_column, right_column = st.columns(2)
-    with right_column:
+    col1, col2, col3, col4 = st.columns([1, 4, 4, 1])
+    with col3:
         st.header("Services I Offer:")
 
         st.subheader("🎵 Music & Audio Services")
@@ -42,7 +42,7 @@ with st.container():
             """
         )
 
-    with left_column:
+    with col2:
          st.lottie(gif, height=350, key="music")
 
 with st.container():
