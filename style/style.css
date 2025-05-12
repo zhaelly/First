@@ -1,0 +1,40 @@
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            font-size: 16px;
+        }
+
+        /* Set consistent height for input fields */
+        input[type="text"],
+        input[type="email"] {
+            height: 48px;
+        }
+
+        /* Make textarea match input height by default, but allow resizing */
+        textarea {
+            min-height: 48px;
+            resize: vertical;
+        }
+
+        /* Submit button styles */
+        input[type="submit"] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Hover effect for submit */
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
