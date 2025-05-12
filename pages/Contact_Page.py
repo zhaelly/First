@@ -34,27 +34,27 @@ with col2:
     st.write("*(If you’re contacting about a commission, please include details like your project idea, deadline, and any references you have.)*")
     st.write("---")
 
+import streamlit as st
 
 with st.container():
-        col1,col2,col3, = st.columns([1,8,1])
+    col1, col2, col3 = st.columns([1, 8, 1])
 
-with col2:
-    contact_form = """
-    <form action="https://formsubmit.co/zitzitbags@gmail.com" method="POST">
-     <input type="hidden" name="_captcha" value="false">
-     <input type="text" name="name" placeholder = "Your Name" required>
-     <input type="email" name="email" placeholder = "Your Email" required>
-     <textarea name="message" placeholder="Your message here"></textarea>
-     <button type="submit">Send</button>
+    with col2:
+        contact_form = """
+        <form action="https://formsubmit.co/el/vewaya" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your message here"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        """
 
-</form> 
-"""
-
-st.markdown(contact_form, unsafe_allow_html=True)
+        st.markdown(contact_form, unsafe_allow_html=True)
 
 def local_css(file_name):
-    with open (file_name) as f:
+    with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-
-local_css ("style/style.css")
+# Assuming you have a local CSS file in 'style/style.css'
+local_css("style/style.css")
