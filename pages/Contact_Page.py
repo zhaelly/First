@@ -36,6 +36,8 @@ with col2:
 
 import streamlit as st
 
+import streamlit as st
+
 with st.container():
     col1, col2, col3 = st.columns([1, 8, 1])
 
@@ -58,3 +60,4 @@ def local_css(file_name):
 
 # Assuming you have a local CSS file in 'style/style.css'
 local_css("style/style.css")
+
