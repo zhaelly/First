@@ -11,4 +11,4 @@ with st.container():
         st.image("images/spotify logo.png", use_container_width=True)
     with col3:
         st.subheader("🎵 Stream")
-        st.markdown('[**"AGAIN" by zhaelly**](https://open.spotify.com/track/6bxmPoPqjkPLzxalB2l8QG?si=238440af124c43b8)')
+        st.markdown('[**"AGAIN" by zhaelly**](https://push.fm/fl/Z2572Hrc)')
