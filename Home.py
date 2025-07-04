@@ -16,8 +16,6 @@ with st.container():
         st.write("""
             -  🎧 My Music – Originals, demos, and projects I’ve produced
 
-            - 🎨 Digital Products – Stickers, templates, presets, and creative tools
-
             - ✍️ Songwriting Commissions – Let me write your next love song or jingle
 
             - 📓 Blog & Journey – Thoughts, tips, and behind-the-scenes stories
